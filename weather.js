@@ -39,7 +39,7 @@ function fetchWeatherByLocation(location) {
 }
 
 function fetchWeatherByCoords(lat, lon) {
-    const apiKey = '4c076645e137c99fba43c8acad6ef124'; 
+    const apiKey = '4c076645e137c99fba43c8acad6ef124';  
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
     fetch(apiUrl)
